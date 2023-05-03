@@ -14,7 +14,7 @@ Task manager
   </h3>
 
 
-This template is an example of an AI-powered task management system. The system uses OpenAI and Pinecone APIs to create, prioritize, and execute tasks. The main idea behind this system is that it creates tasks based on the result of previous tasks and a predefined objective. The script then uses OpenAI's natural language processing (NLP) capabilities to create new tasks based on the objective, and Pinecone to store and retrieve task results for context. This is a paired-down version of the original Task-Driven Autonomous Agent (Mar 28, 2023).
+This template is an example of an AI-powered task management system. The system uses OpenAI and Pinecone APIs to create, prioritize, and execute tasks. The main idea behind this system is that it creates tasks based on the result of previous tasks and a predefined objective. The script then uses OpenAI's natural language processing (NLP) capabilities to create new tasks based on the objective, and Pinecone to store and retrieve task results for context. This is a pared-down version of the original [Task-Driven Autonomous Agent](https://twitter.com/yoheinakajima/status/1640934493489070080?s=20) (Mar 28, 2023).
 
 Check this video demo of the tool in action: <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=GQJ3fz0e9p0&ab_channel=UBOS%3ANo-codeplatformforAIapps">link to YouTube video</a></b>
 
