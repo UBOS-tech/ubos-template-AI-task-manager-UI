@@ -1,0 +1,1149 @@
+[
+    {
+        "_id": "63314721cbcf361100000003",
+        "applicationId": "nastiaui",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "createdAt": "2022-09-26T06:30:57.728Z",
+        "updatedAt": "2022-09-26T06:32:57.813Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ],
+        "Action": {
+            "name": "getCompanyInfoTwo",
+            "datasource": {
+                "invalids": [],
+                "datasourceConfiguration": {
+                    "url": "https://test1-627e69c2cd5a3f150000000b.ubraine.top"
+                },
+                "isValid": true,
+                "name": "DEFAULT_REST_DATASOURCE",
+                "new": true,
+                "organizationId": "Org",
+                "pluginId": "API",
+                "userPermissions": []
+            },
+            "executeOnLoad": true,
+            "pageId": "EditedName",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "GET",
+                "headers": [],
+                "queryParameters": [],
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/getCompanyInfo"
+            },
+            "dynamicBindingPathList": [],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        }
+    },
+    {
+        "_id": "633147b9cbcf361100000006",
+        "applicationId": "nastiaui",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "createdAt": "2022-09-26T06:33:29.126Z",
+        "updatedAt": "2022-09-26T06:33:36.590Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ],
+        "Action": {
+            "name": "some",
+            "datasource": {
+                "datasourceConfiguration": {
+                    "url": "https://test1-627e69c2cd5a3f150000000b.ubraine.top"
+                },
+                "id": "627e6af124527d0015cb6cec",
+                "invalids": [],
+                "isValid": true,
+                "name": "test1",
+                "new": false,
+                "type": "api",
+                "organizationId": "Org",
+                "pluginId": "API",
+                "userPermissions": [
+                    "execute:datasources",
+                    "read:datasources",
+                    "manage:datasources"
+                ],
+                "settings_data": {
+                    "gitName": "",
+                    "projectName": "test1",
+                    "systemType": "latest",
+                    "gitUrl": "",
+                    "gitPassword": "",
+                    "urlNodeRed": "https://test1-627e69c2cd5a3f150000000b.ubraine.top",
+                    "serviceId": "test1627e69c2cd5a3f150000000bubraine",
+                    "applicationId": "627e69c2cd5a3f150000000b",
+                    "env": [],
+                    "status": "ready"
+                }
+            },
+            "executeOnLoad": false,
+            "pageId": "EditedName",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "GET",
+                "headers": [],
+                "queryParameters": [],
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/getCompanyInfo"
+            },
+            "dynamicBindingPathList": [],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        }
+    },
+    {
+        "_id": "63d2210885ffd500125639ca",
+        "applicationId": "nastiaui",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "createdAt": "2023-01-26T06:43:19.876Z",
+        "updatedAt": "2023-01-26T07:38:50.792Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ],
+        "Action": {
+            "name": "getRecipesList",
+            "datasource": {
+                "invalids": [],
+                "datasourceConfiguration": {
+                    "url": "https://test1-627e69c2cd5a3f150000000b.ubraine.top"
+                },
+                "isValid": true,
+                "name": "test1",
+                "new": true,
+                "organizationId": "Org",
+                "pluginId": "API",
+                "userPermissions": []
+            },
+            "executeOnLoad": false,
+            "pageId": "Note tracker Copy",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "GET",
+                "headers": [],
+                "queryParameters": [
+                    {
+                        "key": "tag",
+                        "value": "{{tagSelect.selectedOptionValue}}"
+                    }
+                ],
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/getRecipesList"
+            },
+            "dynamicBindingPathList": [
+                {
+                    "key": "path"
+                },
+                {
+                    "key": "queryParameters[0].value"
+                }
+            ],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [
+                "tagSelect.selectedOptionValue"
+            ],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        }
+    },
+    {
+        "_id": "63d2210885ffd500125639cb",
+        "applicationId": "nastiaui",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "createdAt": "2023-01-26T06:43:19.876Z",
+        "updatedAt": "2023-01-26T06:43:19.876Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ],
+        "Action": {
+            "name": "updateNote",
+            "datasource": {
+                "invalids": [],
+                "datasourceConfiguration": {
+                    "url": "https://test1-627e69c2cd5a3f150000000b.ubraine.top"
+                },
+                "isValid": true,
+                "name": "test1",
+                "new": true,
+                "organizationId": "Org",
+                "pluginId": "API",
+                "userPermissions": []
+            },
+            "executeOnLoad": false,
+            "pageId": "Note tracker Copy",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "PUT",
+                "headers": [
+                    {
+                        "key": "content-type",
+                        "value": "application/json"
+                    }
+                ],
+                "queryParameters": [],
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/updateNote",
+                "body": "{\n    \"title\": \"{{title.text}}\",\n    \"content\": \"{{content.text}}\",\n    \"tags\": {{tags.selectedOptionValues}},\n    \"reminder\": \"{{remind.selectedDate}}\",\n    \"is_pinned\": {{isPinned.isChecked}},\n\t\t\"_id\": ''\n}"
+            },
+            "dynamicBindingPathList": [
+                {
+                    "key": "body"
+                }
+            ],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [
+                "title.text",
+                "content.text",
+                "tags.selectedOptionValues",
+                "remind.selectedDate",
+                "isPinned.isChecked"
+            ],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        }
+    },
+    {
+        "_id": "63d2210885ffd500125639cc",
+        "applicationId": "nastiaui",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "createdAt": "2023-01-26T06:43:19.876Z",
+        "updatedAt": "2023-01-26T06:43:19.876Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ],
+        "Action": {
+            "name": "deleteNote",
+            "datasource": {
+                "invalids": [],
+                "datasourceConfiguration": {
+                    "url": "https://test1-627e69c2cd5a3f150000000b.ubraine.top"
+                },
+                "isValid": true,
+                "name": "test1",
+                "new": true,
+                "organizationId": "Org",
+                "pluginId": "API",
+                "userPermissions": []
+            },
+            "executeOnLoad": false,
+            "pageId": "Note tracker Copy",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "DELETE",
+                "headers": [
+                    {
+                        "key": "content-type",
+                        "value": "application/json"
+                    }
+                ],
+                "queryParameters": [],
+                "body": "{\n\t\"_id\": \"{{notesList.selectedItem._id}}\"\n}",
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "application/json"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/deleteNote"
+            },
+            "dynamicBindingPathList": [
+                {
+                    "key": "body"
+                }
+            ],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [
+                "notesList.selectedItem._id"
+            ],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        }
+    },
+    {
+        "_id": "63d221716bb1c7120000000e",
+        "applicationId": "nastiaui",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "createdAt": "2023-01-26T06:45:05.284Z",
+        "updatedAt": "2023-01-27T13:54:55.182Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ],
+        "Action": {
+            "name": "getTagsList",
+            "datasource": {
+                "invalids": [],
+                "datasourceConfiguration": {
+                    "url": "https://test1-627e69c2cd5a3f150000000b.ubraine.top"
+                },
+                "isValid": true,
+                "name": "test1",
+                "new": true,
+                "organizationId": "Org",
+                "pluginId": "API",
+                "userPermissions": []
+            },
+            "executeOnLoad": false,
+            "pageId": "Note tracker Copy",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "GET",
+                "headers": [],
+                "queryParameters": [],
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/getTagsList"
+            },
+            "dynamicBindingPathList": [],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        }
+    },
+    {
+        "_id": "641d766447695772c80522a1",
+        "applicationId": "nastiaui",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "Action": {
+            "name": "saveCredentials",
+            "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
+                "datasourceConfiguration": {
+                    "url": "https://task-manager-nr-644bb62f65e54e1000000125.ubos.tech"
+                },
+                "invalids": [],
+                "isValid": true,
+                "pluginId": "API",
+                "messages": []
+            },
+            "executeOnLoad": false,
+            "pageId": "AppSettings",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "POST",
+                "headers": [
+                    {
+                        "key": "content-type",
+                        "value": "application/json"
+                    }
+                ],
+                "queryParameters": [],
+                "body": "{\n\t\"pinecone_api\":\"{{InputPineconeAPIKey.text}}\",\n\t\"pinecone_enviroment\":\"{{Input_PineconeEnviroment.text}}\",\n\t\"table_name\":\"{{InputTableName.text}}\",\n\t\"openai_api\":\"{{InputOpenAIApi.text}}\"\n}",
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/saveCredentials"
+            },
+            "dynamicBindingPathList": [
+                {
+                    "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [
+                "InputPineconeAPIKey.text",
+                "Input_PineconeEnviroment.text",
+                "InputTableName.text",
+                "InputOpenAIApi.text"
+            ],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        },
+        "createdAt": "2023-03-24T10:07:32.092Z",
+        "updatedAt": "2023-05-02T07:14:27.248Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "_id": "64213e9c47695772c80522a3",
+        "applicationId": "nastiaui",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "Action": {
+            "name": "getCredentials",
+            "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
+                "datasourceConfiguration": {
+                    "url": "https://task-manager-nr-644bb62f65e54e1000000125.ubos.tech"
+                },
+                "invalids": [],
+                "isValid": true,
+                "pluginId": "API",
+                "messages": []
+            },
+            "executeOnLoad": true,
+            "pageId": "AppSettings",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "GET",
+                "headers": [],
+                "queryParameters": [],
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/getCredentials"
+            },
+            "dynamicBindingPathList": [
+                {
+                    "key": "path"
+                },
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        },
+        "createdAt": "2023-03-27T06:58:36.951Z",
+        "updatedAt": "2023-05-01T09:46:26.700Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "_id": "644f8bd9152f0ed953bf72fc",
+        "applicationId": "nastiaui",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "Action": {
+            "name": "startAgent",
+            "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
+                "datasourceConfiguration": {
+                    "url": "https://task-manager-nr-644bb62f65e54e1000000125.ubos.tech"
+                },
+                "invalids": [],
+                "isValid": true,
+                "pluginId": "API",
+                "messages": []
+            },
+            "executeOnLoad": false,
+            "pageId": "Demo",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "POST",
+                "headers": [
+                    {
+                        "key": "content-type",
+                        "value": "application/json"
+                    }
+                ],
+                "queryParameters": [],
+                "body": "{\n\t\"objective\": \"{{InputObjective.text}}\"\n}",
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/startAgent"
+            },
+            "dynamicBindingPathList": [
+                {
+                    "key": "body"
+                }
+            ],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [
+                "InputObjective.text"
+            ],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        },
+        "createdAt": "2023-05-01T09:52:25.435Z",
+        "updatedAt": "2023-05-01T16:23:56.149Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "_id": "644f8c1b152f0ed953bf72fd",
+        "applicationId": "nastiaui",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "Action": {
+            "name": "stopAgent",
+            "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
+                "datasourceConfiguration": {
+                    "url": "https://task-manager-nr-644bb62f65e54e1000000125.ubos.tech"
+                },
+                "invalids": [],
+                "isValid": true,
+                "pluginId": "API",
+                "messages": []
+            },
+            "executeOnLoad": false,
+            "pageId": "Demo",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "POST",
+                "headers": [
+                    {
+                        "key": "content-type",
+                        "value": "application/json"
+                    }
+                ],
+                "queryParameters": [],
+                "body": "",
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/stopAgent"
+            },
+            "dynamicBindingPathList": [],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        },
+        "createdAt": "2023-05-01T09:53:31.670Z",
+        "updatedAt": "2023-05-01T09:53:45.548Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "name": "handleStartChat",
+        "collectionId": "644f8c34152f0ed953bf72fe",
+        "executeOnLoad": false,
+        "pageId": "Demo",
+        "actionConfiguration": {
+            "body": "() => {\n  startAgent.run();\n  storeValue(\"isStartChat\", true);\n }",
+            "isAsync": true,
+            "timeoutInMillisecond": 10000,
+            "jsArguments": [],
+            "paginationType": "NONE",
+            "encodeParamsToggle": true
+        },
+        "_id": "644f8c3e152f0ed953bf7301",
+        "id": "644f8c3e152f0ed953bf7301",
+        "applicationId": "nastiaui",
+        "datasource": {
+            "isValid": true,
+            "messages": [],
+            "name": "UNUSED_DATASOURCE",
+            "new": true,
+            "pluginId": "",
+            "userPermissions": []
+        },
+        "dynamicBindingPathList": [
+            {
+                "key": "body"
+            }
+        ],
+        "fullyQualifiedName": "JS.handleStartChat",
+        "isValid": true,
+        "jsonPathKeys": [
+            "() => {\n  startAgent.run();\n  storeValue(\"isStartChat\", true);\n }"
+        ],
+        "pluginType": "JS"
+    },
+    {
+        "name": "handleStopChat",
+        "collectionId": "644f8c34152f0ed953bf72fe",
+        "executeOnLoad": false,
+        "pageId": "Demo",
+        "actionConfiguration": {
+            "body": "async () => {\n  storeValue(\"isStartChat\", false);\n\tawait getTasksFromPinecone.run();\n  await stopAgent.run();\n }",
+            "isAsync": true,
+            "timeoutInMillisecond": 10000,
+            "jsArguments": [],
+            "paginationType": "NONE",
+            "encodeParamsToggle": true
+        },
+        "_id": "644f8c3e152f0ed953bf7302",
+        "id": "644f8c3e152f0ed953bf7302",
+        "applicationId": "nastiaui",
+        "datasource": {
+            "isValid": true,
+            "messages": [],
+            "name": "UNUSED_DATASOURCE",
+            "new": true,
+            "pluginId": "",
+            "userPermissions": []
+        },
+        "dynamicBindingPathList": [
+            {
+                "key": "body"
+            }
+        ],
+        "fullyQualifiedName": "JS.handleStopChat",
+        "isValid": true,
+        "jsonPathKeys": [
+            "() => {\n  storeValue(\"isStartChat\", false);\n  stopAgent.run();\n }"
+        ],
+        "pluginType": "JS"
+    },
+    {
+        "name": "getIndexStatus",
+        "collectionId": "644f8c34152f0ed953bf72fe",
+        "executeOnLoad": true,
+        "pageId": "Demo",
+        "actionConfiguration": {
+            "body": "() => {\n\t\tif (main.URL.pathname.includes(\"Demo\")) {\n\t\t\tsetInterval(JS._getIndexStatus, 10000, \"indexStatusIntervalId\");\n\t\t}\n\t\t\n\t\treturn;\n\t}",
+            "isAsync": true,
+            "timeoutInMillisecond": 10000,
+            "jsArguments": [],
+            "paginationType": "NONE",
+            "encodeParamsToggle": true
+        },
+        "_id": "644fae08152f0ed953bf7303",
+        "id": "644fae08152f0ed953bf7303",
+        "applicationId": "nastiaui",
+        "datasource": {
+            "isValid": true,
+            "messages": [],
+            "name": "UNUSED_DATASOURCE",
+            "new": true,
+            "pluginId": "",
+            "userPermissions": []
+        },
+        "dynamicBindingPathList": [
+            {
+                "key": "body"
+            }
+        ],
+        "fullyQualifiedName": "JS.getIndexStatus",
+        "isValid": true,
+        "jsonPathKeys": [
+            "() => {\n\t\tif (main.URL.pathname.includes(\"success_fork_template\")) {\n\t\t\tsetInterval(JS.getDSStatus, 5000, \"forkTemplateIntervalId\");\n\t\t}\n\t\t\n\t\treturn;\n\t}"
+        ],
+        "pluginType": "JS"
+    },
+    {
+        "_id": "644fae53152f0ed953bf7304",
+        "applicationId": "nastiaui",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "Action": {
+            "name": "getIndexStatus",
+            "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
+                "datasourceConfiguration": {
+                    "url": "https://task-manager-nr-644bb62f65e54e1000000125.ubos.tech"
+                },
+                "invalids": [],
+                "isValid": true,
+                "pluginId": "API",
+                "messages": []
+            },
+            "executeOnLoad": false,
+            "pageId": "Demo",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "GET",
+                "headers": [],
+                "queryParameters": [],
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/getIndexStatus"
+            },
+            "dynamicBindingPathList": [],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        },
+        "createdAt": "2023-05-01T12:19:31.935Z",
+        "updatedAt": "2023-05-01T15:49:23.365Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "name": "_getIndexStatus",
+        "collectionId": "644f8c34152f0ed953bf72fe",
+        "executeOnLoad": false,
+        "pageId": "Demo",
+        "actionConfiguration": {
+            "body": "async () => {\n\t\tawait getIndexStatus.run();;\n\t\treturn;\n\t}",
+            "isAsync": true,
+            "timeoutInMillisecond": 10000,
+            "jsArguments": [],
+            "paginationType": "NONE",
+            "encodeParamsToggle": true
+        },
+        "_id": "644faf11152f0ed953bf7305",
+        "id": "644faf11152f0ed953bf7305",
+        "applicationId": "nastiaui",
+        "datasource": {
+            "isValid": true,
+            "messages": [],
+            "name": "UNUSED_DATASOURCE",
+            "new": true,
+            "pluginId": "",
+            "userPermissions": []
+        },
+        "dynamicBindingPathList": [
+            {
+                "key": "body"
+            }
+        ],
+        "fullyQualifiedName": "JS._getIndexStatus",
+        "isValid": true,
+        "jsonPathKeys": [
+            "() => {\n\t\tgetIndexStatus.run();\n\t}"
+        ],
+        "pluginType": "JS"
+    },
+    {
+        "name": "handleClearInterval",
+        "collectionId": "644f8c34152f0ed953bf72fe",
+        "executeOnLoad": false,
+        "pageId": "Demo",
+        "actionConfiguration": {
+            "body": "() => {\n\t\tclearInterval(\"indexStatusIntervalId\");\n\t\treturn;\n\t}",
+            "isAsync": true,
+            "timeoutInMillisecond": 10000,
+            "jsArguments": [],
+            "paginationType": "NONE",
+            "encodeParamsToggle": true
+        },
+        "_id": "644fafb2152f0ed953bf7307",
+        "id": "644fafb2152f0ed953bf7307",
+        "applicationId": "nastiaui",
+        "datasource": {
+            "isValid": true,
+            "messages": [],
+            "name": "UNUSED_DATASOURCE",
+            "new": true,
+            "pluginId": "",
+            "userPermissions": []
+        },
+        "dynamicBindingPathList": [
+            {
+                "key": "body"
+            }
+        ],
+        "fullyQualifiedName": "JS.handleClearInterval",
+        "isValid": true,
+        "jsonPathKeys": [
+            "() => {\n\t\tclearInterval(\"forkTemplateIntervalId\");\n\t\treturn;\n\t}"
+        ],
+        "pluginType": "JS",
+        "executeOnClose": true
+    },
+    {
+        "_id": "644fba1f152f0ed953bf7308",
+        "applicationId": "nastiaui",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "Action": {
+            "name": "createIndex",
+            "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
+                "datasourceConfiguration": {
+                    "url": "https://task-manager-nr-644bb62f65e54e1000000125.ubos.tech"
+                },
+                "invalids": [],
+                "isValid": true,
+                "pluginId": "API",
+                "messages": []
+            },
+            "executeOnLoad": false,
+            "pageId": "AppSettings",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "POST",
+                "headers": [
+                    {
+                        "key": "content-type",
+                        "value": "application/json"
+                    }
+                ],
+                "queryParameters": [],
+                "body": "",
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/pinecone/createIndex"
+            },
+            "dynamicBindingPathList": [],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        },
+        "createdAt": "2023-05-01T13:09:51.990Z",
+        "updatedAt": "2023-05-01T15:48:58.078Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "_id": "644fc456152f0ed953bf7309",
+        "applicationId": "nastiaui",
+        "organizationId": "Org",
+        "pluginType": "API",
+        "pluginId": "API",
+        "Action": {
+            "name": "getTasksFromPinecone",
+            "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
+                "datasourceConfiguration": {
+                    "url": "https://task-manager-nr-644bb62f65e54e1000000125.ubos.tech"
+                },
+                "invalids": [],
+                "isValid": true,
+                "pluginId": "API",
+                "messages": []
+            },
+            "executeOnLoad": false,
+            "pageId": "Demo",
+            "actionConfiguration": {
+                "timeoutInMillisecond": 10000,
+                "encodeParamsToggle": true,
+                "httpMethod": "GET",
+                "headers": [],
+                "queryParameters": [],
+                "bodyFormData": [],
+                "formData": {
+                    "apiContentType": "none"
+                },
+                "pluginSpecifiedTemplates": [
+                    {
+                        "value": true
+                    }
+                ],
+                "path": "/getTasksFromPinecone"
+            },
+            "dynamicBindingPathList": [],
+            "isValid": true,
+            "invalids": [],
+            "jsonPathKeys": [],
+            "userSetOnLoad": false,
+            "confirmBeforeExecute": false
+        },
+        "createdAt": "2023-05-01T13:53:26.434Z",
+        "updatedAt": "2023-05-01T15:49:27.210Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:actions",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "execute:actions",
+                "groups": [],
+                "users": []
+            }
+        ]
+    }
+]

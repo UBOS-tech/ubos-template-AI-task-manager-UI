@@ -1,0 +1,194 @@
+{
+    "_id": "630c766e2586361100000002",
+    "name": "task-manager-ui",
+    "slug": "nastiaui",
+    "organizationId": "Org",
+    "isPublic": true,
+    "isMenu": false,
+    "createdAt": "2023-03-12T10:36:49.931Z",
+    "updatedAt": "2023-05-01T12:30:07.712Z",
+    "deleted": false,
+    "pages": [
+        {
+            "_id": "AppSettings",
+            "isDefault": true
+        },
+        {
+            "_id": "Demo",
+            "isDefault": false
+        }
+    ],
+    "policies": [
+        {
+            "permission": "makePublic:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "read:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "publish:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "manage:applications",
+            "groups": [],
+            "users": []
+        }
+    ],
+    "settings_data": {
+        "httpIns": []
+    },
+    "appLayout": {
+        "type": "FLUID"
+    },
+    "global_setting": {
+        "favicon": "https://ubraine.com/wp-content/uploads/2018/09/cropped-ubraine_favicon-32x32.png",
+        "title": "Task Manager Bot",
+        "css": "https://css.betedo.com/files/templates/taskManagerBot.css"
+    },
+    "function_dsl": [
+        {
+            "isVisible": true,
+            "backgroundColor": "#8BC34A ",
+            "widgetName": "Function1",
+            "containerStyle": "card",
+            "borderColor": "transparent",
+            "borderWidth": "0",
+            "borderRadius": "5",
+            "boxShadow": "NONE",
+            "animateLoading": true,
+            "dontLookPage": [
+                "home"
+            ],
+            "children": [
+                {
+                    "isVisible": true,
+                    "widgetName": "Canvas10",
+                    "version": 1,
+                    "detachFromLayout": true,
+                    "type": "CANVAS_WIDGET",
+                    "hideCard": true,
+                    "displayName": "Canvas",
+                    "key": "va5pou6xyc",
+                    "containerStyle": "none",
+                    "canExtend": false,
+                    "children": [
+                        {
+                            "isVisible": true,
+                            "files": [],
+                            "label": "Accordion",
+                            "onClick": "",
+                            "category": "",
+                            "categoryItem": "",
+                            "categorySubItem": "",
+                            "onClickSub": "",
+                            "onClickMain": "{{navigateTo(menu.selectedValue, {})}}",
+                            "widgetName": "menu",
+                            "shouldScrollContents": false,
+                            "directionRtl": false,
+                            "selectedValue": "",
+                            "array": "[\n{\n    \"label\": \"App Settings\",\n    \"value\": \"AppSettings\",\n    \"children\": []\n  },\n  {\n    \"label\": \"Demo\",\n    \"value\": \"Demo\",\n    \"children\": []\n  }\n]",
+                            "classStyle": "",
+                            "type": "ACCORDION_WIDGET",
+                            "hideCard": false,
+                            "displayName": "Accordion",
+                            "key": "uxfuv9uo2t",
+                            "iconSVG": "/static/media/icon.a3ebb3df.svg",
+                            "widgetId": "qnt2ey7yvl",
+                            "renderMode": "CANVAS",
+                            "isLoading": false,
+                            "parentColumnSpace": 2.314453125,
+                            "parentRowSpace": 10,
+                            "leftColumn": 0,
+                            "rightColumn": 64,
+                            "topRow": 12,
+                            "bottomRow": 25,
+                            "parentId": "zwaxm7ghsb",
+                            "dynamicBindingPathList": [],
+                            "dynamicTriggerPathList": [
+                                {
+                                    "key": "onClickMain"
+                                }
+                            ]
+                        },
+                        {
+                            "isVisible": true,
+                            "iconName": "chat",
+                            "borderRadius": "CIRCLE",
+                            "boxShadow": "VARIANT2",
+                            "buttonColor": "#2E3D49",
+                            "buttonVariant": "PRIMARY",
+                            "isDisabled": false,
+                            "widgetName": "IconButton2",
+                            "version": 1,
+                            "animateLoading": true,
+                            "type": "ICON_BUTTON_WIDGET",
+                            "hideCard": false,
+                            "displayName": "Icon Button",
+                            "key": "8h3vffgycl",
+                            "iconSVG": "/static/media/icon.1a0c634a.svg",
+                            "widgetId": "1dhylh92d6",
+                            "renderMode": "CANVAS",
+                            "isLoading": false,
+                            "parentColumnSpace": 2.353515625,
+                            "parentRowSpace": 10,
+                            "leftColumn": 0,
+                            "rightColumn": 63,
+                            "topRow": 0,
+                            "bottomRow": 10,
+                            "parentId": "zwaxm7ghsb",
+                            "dynamicBindingPathList": [],
+                            "dynamicTriggerPathList": [],
+                            "onClick": ""
+                        }
+                    ],
+                    "minHeight": 400,
+                    "widgetId": "zwaxm7ghsb",
+                    "renderMode": "CANVAS",
+                    "isLoading": false,
+                    "parentColumnSpace": 1,
+                    "parentRowSpace": 1,
+                    "leftColumn": 0,
+                    "rightColumn": 504.375,
+                    "topRow": 0,
+                    "bottomRow": 400,
+                    "parentId": "9pynvodbnn"
+                }
+            ],
+            "version": 1,
+            "type": "FUNCTION_WIDGET",
+            "hideCard": false,
+            "displayName": "Function",
+            "key": "e5zj693bt8",
+            "iconSVG": "/static/media/icon.1977dca3.svg",
+            "isCanvas": true,
+            "widgetId": "9pynvodbnn",
+            "renderMode": "CANVAS",
+            "isLoading": false,
+            "parentColumnSpace": 21.015625,
+            "parentRowSpace": 10,
+            "leftColumn": 0,
+            "rightColumn": 8,
+            "topRow": 0,
+            "bottomRow": 83,
+            "parentId": "0",
+            "dynamicBindingPathList": [],
+            "dynamicTriggerPathList": [],
+            "classStyle": "menuWrap"
+        }
+    ],
+    "version": "V1",
+    "gitApplicationMetadata": {
+        "browserSupportedRemoteUrl": "https://github.com/UBOS-tech/ubos-template-AI-task-manager-UI",
+        "defaultApplicationId": "nastiaui",
+        "defaultBranchName": "main",
+        "isRepoPrivate": true,
+        "remoteUrl": "git@github.com:UBOS-tech/ubos-template-AI-task-manager-UI.git",
+        "repoName": "ubos-template-AI-task-manager-UI"
+    }
+}

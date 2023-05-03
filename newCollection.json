@@ -1,0 +1,199 @@
+[
+    {
+        "name": "JS",
+        "pageId": "Demo",
+        "body": "export default {\n handleStartChat: () => {\n  startAgent.run();\n  storeValue(\"isStartChat\", true);\n },\n\t\n handleStopChat: async () => {\n  storeValue(\"isStartChat\", false);\n\tawait getTasksFromPinecone.run();\n  await stopAgent.run();\n },\n\t\n\t_getIndexStatus: async () => {\n\t\tawait getIndexStatus.run();;\n\t\treturn;\n\t},\n\n\tgetIndexStatus: () => {\n\t\tif (main.URL.pathname.includes(\"Demo\")) {\n\t\t\tsetInterval(this._getIndexStatus, 10000, \"indexStatusIntervalId\");\n\t\t}\n\t\t\n\t\treturn;\n\t},\n\t\n\thandleClearInterval: () => {\n\t\tclearInterval(\"indexStatusIntervalId\");\n\t\treturn;\n\t}\n}",
+        "variables": [],
+        "actions": [
+            {
+                "name": "handleStartChat",
+                "collectionId": "644f8c34152f0ed953bf72fe",
+                "executeOnLoad": false,
+                "pageId": "Demo",
+                "actionConfiguration": {
+                    "body": "() => {\n  startAgent.run();\n  storeValue(\"isStartChat\", true);\n }",
+                    "isAsync": true,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "_id": "644f8c3e152f0ed953bf7301",
+                "id": "644f8c3e152f0ed953bf7301",
+                "applicationId": "nastiaui",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JS.handleStartChat",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "() => {\n  startAgent.run();\n  storeValue(\"isStartChat\", true);\n }"
+                ],
+                "pluginType": "JS"
+            },
+            {
+                "name": "handleStopChat",
+                "collectionId": "644f8c34152f0ed953bf72fe",
+                "executeOnLoad": false,
+                "pageId": "Demo",
+                "actionConfiguration": {
+                    "body": "async () => {\n  storeValue(\"isStartChat\", false);\n\tawait getTasksFromPinecone.run();\n  await stopAgent.run();\n }",
+                    "isAsync": true,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "_id": "644f8c3e152f0ed953bf7302",
+                "id": "644f8c3e152f0ed953bf7302",
+                "applicationId": "nastiaui",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JS.handleStopChat",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "() => {\n  storeValue(\"isStartChat\", false);\n  stopAgent.run();\n }"
+                ],
+                "pluginType": "JS"
+            },
+            {
+                "name": "getIndexStatus",
+                "collectionId": "644f8c34152f0ed953bf72fe",
+                "executeOnLoad": true,
+                "pageId": "Demo",
+                "actionConfiguration": {
+                    "body": "() => {\n\t\tif (main.URL.pathname.includes(\"Demo\")) {\n\t\t\tsetInterval(JS._getIndexStatus, 10000, \"indexStatusIntervalId\");\n\t\t}\n\t\t\n\t\treturn;\n\t}",
+                    "isAsync": true,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "_id": "644fae08152f0ed953bf7303",
+                "id": "644fae08152f0ed953bf7303",
+                "applicationId": "nastiaui",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JS.getIndexStatus",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "() => {\n\t\tif (main.URL.pathname.includes(\"success_fork_template\")) {\n\t\t\tsetInterval(JS.getDSStatus, 5000, \"forkTemplateIntervalId\");\n\t\t}\n\t\t\n\t\treturn;\n\t}"
+                ],
+                "pluginType": "JS"
+            },
+            {
+                "name": "_getIndexStatus",
+                "collectionId": "644f8c34152f0ed953bf72fe",
+                "executeOnLoad": false,
+                "pageId": "Demo",
+                "actionConfiguration": {
+                    "body": "async () => {\n\t\tawait getIndexStatus.run();;\n\t\treturn;\n\t}",
+                    "isAsync": true,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "_id": "644faf11152f0ed953bf7305",
+                "id": "644faf11152f0ed953bf7305",
+                "applicationId": "nastiaui",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JS._getIndexStatus",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "() => {\n\t\tgetIndexStatus.run();\n\t}"
+                ],
+                "pluginType": "JS"
+            },
+            {
+                "name": "handleClearInterval",
+                "collectionId": "644f8c34152f0ed953bf72fe",
+                "executeOnLoad": false,
+                "pageId": "Demo",
+                "actionConfiguration": {
+                    "body": "() => {\n\t\tclearInterval(\"indexStatusIntervalId\");\n\t\treturn;\n\t}",
+                    "isAsync": true,
+                    "timeoutInMillisecond": 10000,
+                    "jsArguments": [],
+                    "paginationType": "NONE",
+                    "encodeParamsToggle": true
+                },
+                "_id": "644fafb2152f0ed953bf7307",
+                "id": "644fafb2152f0ed953bf7307",
+                "applicationId": "nastiaui",
+                "datasource": {
+                    "isValid": true,
+                    "messages": [],
+                    "name": "UNUSED_DATASOURCE",
+                    "new": true,
+                    "pluginId": "",
+                    "userPermissions": []
+                },
+                "dynamicBindingPathList": [
+                    {
+                        "key": "body"
+                    }
+                ],
+                "fullyQualifiedName": "JS.handleClearInterval",
+                "isValid": true,
+                "jsonPathKeys": [
+                    "() => {\n\t\tclearInterval(\"forkTemplateIntervalId\");\n\t\treturn;\n\t}"
+                ],
+                "pluginType": "JS",
+                "executeOnClose": true
+            }
+        ],
+        "applicationId": "nastiaui",
+        "pluginType": "JS",
+        "_id": "644f8c34152f0ed953bf72fe",
+        "id": "644f8c34152f0ed953bf72fe",
+        "pluginId": "JS",
+        "actionIds": [],
+        "archivedActionIds": [],
+        "archivedActions": []
+    }
+]
