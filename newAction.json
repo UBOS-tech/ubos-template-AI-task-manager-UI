@@ -472,7 +472,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://task-manager-nr-644bb62f65e54e1000000125.ubos.tech"
+                    "url": "{{main.env.back}}/saveCredentials"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -502,7 +502,7 @@
                         "value": true
                     }
                 ],
-                "path": "/saveCredentials"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -515,6 +515,7 @@
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
+                "main.env.back",
                 "InputPineconeAPIKey.text",
                 "Input_PineconeEnviroment.text",
                 "InputTableName.text",
@@ -524,7 +525,7 @@
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-03-24T10:07:32.092Z",
-        "updatedAt": "2023-05-02T07:14:27.248Z",
+        "updatedAt": "2023-05-04T10:49:18.656Z",
         "deleted": false,
         "policies": [
             {
@@ -555,7 +556,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://task-manager-nr-644bb62f65e54e1000000125.ubos.tech"
+                    "url": "{{main.env.back}}/getCredentials"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -579,7 +580,7 @@
                         "value": true
                     }
                 ],
-                "path": "/getCredentials"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
@@ -591,12 +592,15 @@
             ],
             "isValid": true,
             "invalids": [],
-            "jsonPathKeys": [],
+            "jsonPathKeys": [
+                "main.env.back",
+                "main.env.back,2023-03-27T06:58:36.951Z,2023-05-04T10:48:46.257Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,{{main.env.back ,2023-03-27T06:58:36.951Z,2023-05-04T10:48:48.270Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,{{main.env.back,2023-03-27T06:58:36.951Z,2023-05-04T10:48:49.771Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,{{main.env.back"
+            ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-03-27T06:58:36.951Z",
-        "updatedAt": "2023-05-01T09:46:26.700Z",
+        "updatedAt": "2023-05-04T10:49:07.353Z",
         "deleted": false,
         "policies": [
             {
@@ -627,7 +631,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://task-manager-nr-644bb62f65e54e1000000125.ubos.tech"
+                    "url": "{{main.env.back}}/startAgent"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -657,23 +661,28 @@
                         "value": true
                     }
                 ],
-                "path": "/startAgent"
+                "path": ""
             },
             "dynamicBindingPathList": [
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "InputObjective.text"
+                "main.env.back ",
+                "InputObjective.text",
+                "main.env.back"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-05-01T09:52:25.435Z",
-        "updatedAt": "2023-05-01T16:23:56.149Z",
+        "updatedAt": "2023-05-04T10:48:17.917Z",
         "deleted": false,
         "policies": [
             {
@@ -704,7 +713,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://task-manager-nr-644bb62f65e54e1000000125.ubos.tech"
+                    "url": "{{main.env.back}}/stopAgent"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -734,17 +743,24 @@
                         "value": true
                     }
                 ],
-                "path": "/stopAgent"
+                "path": ""
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
-            "jsonPathKeys": [],
+            "jsonPathKeys": [
+                "main.env.back ",
+                "main.env.back"
+            ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-05-01T09:53:31.670Z",
-        "updatedAt": "2023-05-01T09:53:45.548Z",
+        "updatedAt": "2023-05-04T10:48:31.075Z",
         "deleted": false,
         "policies": [
             {
@@ -883,7 +899,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://task-manager-nr-644bb62f65e54e1000000125.ubos.tech"
+                    "url": "{{main.env.back}}/getIndexStatus"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -907,17 +923,24 @@
                         "value": true
                     }
                 ],
-                "path": "/getIndexStatus"
+                "path": ""
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
-            "jsonPathKeys": [],
+            "jsonPathKeys": [
+                "main.env.bac",
+                "main.env.back"
+            ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-05-01T12:19:31.935Z",
-        "updatedAt": "2023-05-01T15:49:23.365Z",
+        "updatedAt": "2023-05-04T10:47:56.654Z",
         "deleted": false,
         "policies": [
             {
@@ -1021,7 +1044,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://task-manager-nr-644bb62f65e54e1000000125.ubos.tech"
+                    "url": "{{main.env.back}}/pinecone/createIndex"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -1051,17 +1074,23 @@
                         "value": true
                     }
                 ],
-                "path": "/pinecone/createIndex"
+                "path": ""
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
-            "jsonPathKeys": [],
+            "jsonPathKeys": [
+                "main.env.back"
+            ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-05-01T13:09:51.990Z",
-        "updatedAt": "2023-05-01T15:48:58.078Z",
+        "updatedAt": "2023-05-04T10:49:14.047Z",
         "deleted": false,
         "policies": [
             {
@@ -1092,7 +1121,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://task-manager-nr-644bb62f65e54e1000000125.ubos.tech"
+                    "url": "{{main.env.back}}/getTasksFromPinecone"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -1116,17 +1145,24 @@
                         "value": true
                     }
                 ],
-                "path": "/getTasksFromPinecone"
+                "path": ""
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
-            "jsonPathKeys": [],
+            "jsonPathKeys": [
+                "main.env.bac",
+                "main.env.back"
+            ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2023-05-01T13:53:26.434Z",
-        "updatedAt": "2023-05-01T15:49:27.210Z",
+        "updatedAt": "2023-05-04T10:48:06.323Z",
         "deleted": false,
         "policies": [
             {
