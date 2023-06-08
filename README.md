@@ -16,7 +16,7 @@ Task manager
 <div align="center">
   
   [![Use template](https://ubos.tech/wp-content/uploads/2023/06/download-logo.png)](https://platform.ubos.tech/?templateId=64538a883023c6001004f3af)
-  [![Use template](https://github.com/UBOS-tech/ubos-template-AI-task-manager-UI/assets/41735477/1510d333-d264-4fef-826c-581229c61909)](https://youtu.be/rkc5tKsmDlo)
+  [![Use template](https://ubos.tech/wp-content/uploads/2023/06/Group-19.png)](https://youtu.be/rkc5tKsmDlo)
   
 </div>
 
